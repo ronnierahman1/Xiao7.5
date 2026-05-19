@@ -2,10 +2,11 @@
 #include "time.h"
 #include <GxEPD2_BW.h>
 #include <Fonts/FreeMonoBold24pt7b.h>
+#include "secrets.h"
 
 // ------------------ Wi-Fi Credentials ------------------
-const char* ssid     = "Fibre_MarocTelecom-E80B";
-const char* password = "evG8SQgbAE";
+const char* ssid     = WIFI_SSID;
+const char* password = WIFI_PASS;
 
 // ------------------ NTP Server & Timezone ------------------
 const char* ntpServer = "pool.ntp.org";
